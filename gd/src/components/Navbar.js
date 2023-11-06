@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`mob-navLinks md:hidden bg-black text-white absolute w-full h-full z-[10] md:z-auto transition-all duration-500  ${
+        className={` mob-navLinks fixed top-0 left-0 md:hidden bg-black text-white  w-full h-full z-[10] md:z-auto transition-all duration-500  ${
           isOpen ? "top-[-100%]" : "top-[0]"
         }`}
       >
