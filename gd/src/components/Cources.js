@@ -11,7 +11,7 @@ const Cources = () => {
           Our Courses
         </h1>
       </div>
-      <div className="items mt-20 md:flex justify-evenly">
+      <div className="items mt-10 md:flex md:flex-row md:justify-evenly  flex flex-col justify-center items-center">
         <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow mb-10">
           <div>
             <img class="p-4 rounded-t-lg" src={img1} alt="product image" />
@@ -41,8 +41,8 @@ const Cources = () => {
           </div>
         </div>
       </div>
-      <div className=" text-center mt-10">
-        <button className=" shadow-lg bg-[#DA722C] hover:scale-105 px-4 py-3 rounded-md text-white font-bold hover:bg-[#6F7DFB] duration-300">
+      <div className=" text-center mt-2">
+        <button className=" shadow-lg bg-[#DA722C] hover:scale-105 px-4 mb-3 py-3 rounded-md text-white font-bold hover:bg-[#6F7DFB] duration-300">
           All Courses
         </button>
       </div>

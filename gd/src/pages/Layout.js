@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import Home from "../components/Home";
 import Testimonials from "../components/Testimonials";
 import Cources from "../components/Cources";
+import GetApp from "../components/GetApp";
+import Footer from "../components/Footer";
 
 const Layout = () => {
   return (
@@ -12,12 +14,20 @@ const Layout = () => {
         <Home />
       </section>
 
-      <section className="px-10 lg:px-20 h-[100vh] lg:h-[60vh]">
+      <section className="px-10 lg:px-20 h-[100vh] lg:h-[90vh]">
         <Testimonials />
       </section>
 
-      <section className="px-10 lg:px-20 h-[100vh] md:h-[80vh] bg-gradient-to-b from-[#6F7DFB] to-[#26308C]">
+      <section className="px-10 lg:px-20 h-[100vh] md:h-[90vh] bg-gradient-to-b from-[#6F7DFB] to-[#26308C]">
         <Cources />
+      </section>
+
+      <section className="get-app px-10 lg:px-20 h-[100vh] md:h-[80vh] ">
+        <GetApp />
+      </section>
+
+      <section className="footer px-10 lg:px-20 h-[100vh] md:h-[80vh] bg-[#070917]">
+        <Footer />
       </section>
     </div>
   );
